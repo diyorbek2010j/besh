@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    color: red;
+    text-align: center;
+    /* shorthand */
+    /* duration -> timing -> delay -> property  */
+    transition: 1s linear 0s all;
+}
+.title:hover{
+    color: blue;
+    font-size: 32px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background: green;
+    /* davomiyligi */
+    transition-duration: 1s;
+    /* kutish vaqti */
+    transition-delay: 0s;
+    /* holati */
+    transition-timing-function: linear;
+    /* hossasi */
+    transition-property: all;
+}
+.box:hover{
+    margin-left: 50px;
+    background: red;
+    border-radius: 50%;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    
+    background-image: url(./nature\ 003.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 180px;
+    font-size: 120px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    HTML - 1
+    CSS - 2
+    JavaScript - 2
+    ReactJS - 2
+    NodeJS - 2
+*/
